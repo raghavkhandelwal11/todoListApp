@@ -190,6 +190,7 @@ function render(x) {
 
         let card1 = new Object(element1);
         card1.setAttribute("id", 'pin');
+        document.getElementsByClassName('fix135')[0].innerText = x.title;
 
         document.getElementsByClassName("secondPage")[0].appendChild(card1);
 
