@@ -1,0 +1,198 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.headLine {
+    /* background-color: lightgrey; */
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+    color: white;
+
+}
+
+.fix135 {
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 8.3vh;
+    width: 20vw;
+    left: 40vw;
+    z-index: 2;
+}
+
+
+.compress1 {
+    border: 1px solid black; 
+    width: 60%;
+}
+
+.fix1 {
+    margin-top: 50px;
+}
+
+.button1 {
+    position: relative;
+    right: 50px;
+    top: 50px;
+}
+
+.fix2 {
+    position: relative;
+    width: 50px;
+    left: 49.5%;
+    bottom: 1.8vh;
+    font-size: 22px;
+    color: white;
+
+}
+
+.card {
+    width: 24vw;
+    height: 42vh; 
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #E66022;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+.fix4 {
+    margin-left: 23%;
+}
+
+.fix3 {
+    color: white;
+    padding-top: 12px;
+    font-size: 27px;
+    
+}
+
+.fix6 {
+    color: #E66022;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin-top: 28px;
+    font-size: 18px;
+}
+
+.fix5 {
+    position: relative;
+    right: 20px;
+    top: 7px;
+}
+
+.label1 {
+    position: relative;
+    bottom: 1px;
+    font-size: 18px;
+}
+
+.button2 {
+    position: relative;
+    top: 25%;
+    left: 38%;
+}
+
+@media (max-width: 780px) {
+    .compress1 {
+        display: none
+    }
+
+    .card {
+        width: 40%;
+    }
+    .fix135{
+        width: 30vw;
+        left: 40%;
+        font-size: 27px;
+
+    }
+
+    .fix2 {
+        display: none;
+    }
+
+    /* .button1 {
+        margin-bottom: 100px;
+    } */
+
+    .b2 {
+        position: relative;
+        bottom: 80px;
+        right: 10vw;
+    }
+
+    .fix1 {
+        margin: 0;
+        
+    }
+    .fix3 {
+        font-size: 20px;
+    }
+
+    .fix6 {
+        font-size: 16px;
+    }
+
+    .label1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .compress1 {
+        display: none
+    } */
+
+    .card {
+        width: 70%;
+    }
+    .fix135{
+        width: 30vw;
+        left: 40%;
+        font-size: 20px;
+
+    }
+
+    .fix2 {
+        display: none;
+    }
+
+    /* .button1 {
+        margin-bottom: 100px;
+    } */
+
+    .b2 {
+        position: relative;
+        bottom: 80px;
+        right: 10vw;
+    }
+
+    .fix1 {
+        margin: 0;
+        
+    }
+    .fix3 {
+        font-size: 18px;
+    }
+
+    .fix6 {
+        font-size: 16px;
+    }
+
+    .label1 {
+        font-size: 16px;
+    }
+}
+
+hr {
+    color: white;
+}

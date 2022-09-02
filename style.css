@@ -1,0 +1,336 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.background {
+    margin: 100px auto;
+    height: 70vh;
+    width: 65vw;
+    background-color: black;
+
+    /* background-color: grey; */
+    /* border: 2px solid grey; */
+    /* background-color: white; */
+    
+    
+    
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px; 
+
+}
+
+.default {
+    color: white;
+}
+
+.cards {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.card {
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.625);
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 200px;
+    box-shadow: 10px 10px 5px rgba(169, 169, 169, 0.253);
+    margin-bottom: 15px;
+    background-color: white;
+    
+    
+}
+
+.link1 {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.red1 {
+    color: red;
+}
+
+.size1 {
+    font-size: 18px;
+}
+
+.adjust {
+    float: right;
+    font-size: 25px;
+    color: white;
+}
+
+.size2 {
+    /* width: 150px; */
+    height: 30px;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.size3 {
+    font-size: 40px;
+    color: white;
+}
+
+
+
+hr {
+    position: relative;
+    /* left: 20px; */
+    
+   
+}
+
+a.active {
+    filter: blur(5px);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+#bt1 {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    height: 25px;
+}
+
+#bt2 {
+    position: relative;
+    top: 20px;
+    left: 62px;
+    color:rgb(163, 35, 9)
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+@media (max-width: 780px) {
+    .adjust {
+        display: none;
+    }
+}
+
+@media (max-width: 530px) {
+
+    body {
+        background-color: rgb(240, 240, 240);
+    }
+
+    .background {
+        padding-top: 50px;
+        border: 2px solid lightgrey;
+        background-color: white;
+    }
+
+    b {
+        font-weight: 800;
+    }
+    .size3 {
+        font-size: 25px;
+    }
+
+    .link1 {
+        padding-top: 22px;
+    }
+
+    .sep {
+        display: none;
+    }
+
+    .card {
+        text-align: left;
+        width: 70%;
+        height: 24px;
+        color: black;
+        border-width: 0.8px;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+
+    .size2 {
+        position: relative;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 30px;
+        bottom: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.blurrr {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* background-image: url(./screen.jpeg); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* -webkit-filter: blur(5px); */
+    filter: blur(0px);
+    z-index: 1;
+}
+
+.in {
+    display: none;
+    position: relative;
+    top: 35vh;
+    left: 29%;
+    text-align: center;
+    background: white;
+    color: red;
+    width: 30vw;
+    height: 20vh;
+    padding: 40px;
+    
+    border: 2px solid red;
+    border-radius: 14px;
+    z-index: 2;
+    box-shadow: 10px 10px 5px rgba(169, 169, 169, 0.475);
+    
+}
+
+.in1 {
+    position: relative;
+    top: 35vh;
+    left: 29%;
+    text-align: center;
+    background: white;
+    color: red;
+    width: 30vw;
+    height: 20vh;
+    padding: 40px;
+    
+    border: 2px solid red;
+    border-radius: 14px;
+    z-index: 2;
+    box-shadow: 10px 10px 5px rgba(169, 169, 169, 0.475);
+    
+}
+
+
+.inp1 {
+    width: 85%;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.b1 {
+    font-size: 16px;
+    height: 35px;
+    width: 70px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    border-radius: 25px;
+}
+
+.set456 {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+
+.set321 {
+    color: white;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+@media (max-width: 780px) {
+    .adjust {
+        display: none;
+    }
+}
+
+@media (max-width: 530px) {
+
+    body {
+        background-color: rgb(240, 240, 240);
+    }
+
+    .background {
+        padding-top: 50px;
+        border: 2px solid lightgrey;
+        background-color: white;
+    }
+
+    b {
+        font-weight: 800;
+    }
+    .size3 {
+        font-size: 25px;
+    }
+
+    .link1 {
+        padding-top: 22px;
+    }
+
+    .sep {
+        display: none;
+    }
+
+    .card {
+        text-align: left;
+        width: 70%;
+        height: 24px;
+        color: black;
+        border-width: 0.8px;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+
+    .size2 {
+        position: relative;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 30px;
+        bottom: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
