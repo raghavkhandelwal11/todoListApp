@@ -204,7 +204,7 @@ function render(x) {
         let lt = document.querySelector("#button145");
         lt.addEventListener('click', (e) => {
             e.preventDefault()
-            console.log("fucked up");
+            
             element0.appendChild(element1);
             element1.classList.add('card');
             element1.classList.remove('card1');
