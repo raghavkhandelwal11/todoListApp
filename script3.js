@@ -60,6 +60,7 @@ add.addEventListener('click', (e) => {
 
 
 function render(x) {
+    let flag = true;
     let element1 = document.createElement('div');
     element1.classList.add("card", x.popId3);
 
@@ -152,6 +153,7 @@ function render(x) {
 
     mel.addEventListener('click', (e) => {
         e.preventDefault();
+        flag = false;
         document.getElementsByClassName(x.popId3)[0].remove();
         // document.getElementsByClassName(x.popId1)[0].remove();
         // document.getElementsByClassName('card1')[0].remove();
@@ -204,10 +206,11 @@ function render(x) {
         let lt = document.querySelector("#button145");
         lt.addEventListener('click', (e) => {
             e.preventDefault()
-            
-            element0.appendChild(element1);
-            element1.classList.add('card');
-            element1.classList.remove('card1');
+            if(flag) {
+                element0.appendChild(element1);
+                element1.classList.add('card');
+                element1.classList.remove('card1');
+            }
             
             document.getElementsByClassName("blurrr")[0].style.display = "block";
             document.getElementsByClassName("secondPage")[0].style.display = "none";
